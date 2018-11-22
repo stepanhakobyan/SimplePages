@@ -111,6 +111,10 @@ header_pages:
     xmlns:mstns="http://tempuri.org/XMLSchema.xsd"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
 >
+  <!-- comment here -->
+<xs:annotation id="a123">123</xs:annotation>
+<xs:annotation id="a124">Hi ho</xs:annotation>
+
 </xs:schema>
 ```
 
