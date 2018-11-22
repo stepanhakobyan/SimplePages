@@ -17,6 +17,8 @@ async string GetFileAsync()
     result = t.Result;
     return result;
     //comment here
+    var val1 = 123;
+    var val2 = 123.05;
 }
 ```
 
@@ -26,6 +28,7 @@ function isItWorking() {
   let text = "some text";
   let other = text.toString();
   let val1 = 123;
+  let val2 = 123.05;
   let p = new Point();
   //comment here
 }
@@ -37,6 +40,7 @@ Function IsItWorking()
     let val1 As Long
     Set fso = CreateObject("Scripting.FileSystemObject")
     val1 = 123
+    val1 = 123.05
     'comment here 123
     REM comment here
 End Function
@@ -47,6 +51,7 @@ async function isItWorking(): void {
   let text: string = "some text";
   let other = text.toString();
   let val1: number = 123;
+  let val2: number = 123.05;
   let p: Point = new Point();
   //comment here 456
 }
@@ -57,6 +62,7 @@ async function isItWorking(): void {
   let text: string = "some text";
   let other = text.toString();
   let val1: number = 123;
+  let val2: number = 123.05;
   let p: Point = new Point();
   //comment here
 }
@@ -78,14 +84,15 @@ lalala
 {
   "str": "string",
   "num": 1234,
+  "flo": 123.05,
   "bool": true,
   "arr": [
     "val1",
     "val2"
   ],
   "obj": {
-  	"prop1": value1,
-  	"prop1": value2
+  	"prop1": invalid1,
+  	"prop1": invalid2
   }
 }
 ```
@@ -93,14 +100,23 @@ lalala
 ``` yaml
 # Config settings
 title: Simple Pages Title
-author: Simple Pages Author - Me
+author: "Simple Pages Author - Me"
 email: site@email.me
 description: Simple Pages Description
+version: 1.5
+number: 1500
 
 theme: minima
 
 header_pages:
 - second.md
+
+# Search settings
+tipue_search:
+  include:
+    pages: true
+  exclude:
+files: [index.md, search.html]
 ```
 
 ``` xml
