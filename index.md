@@ -74,6 +74,46 @@ lalala
 </div>
 ```
 
+``` json
+{
+  "str": "string",
+  "num": 1234,
+  "bool": true,
+  "arr": [
+    "val1",
+    "val2"
+  ],
+  "obj": {
+  	"prop1": value1,
+  	"prop1": value2
+  }
+}
+```
+
+``` yaml
+# Config settings
+title: Simple Pages Title
+author: Simple Pages Author - Me
+email: site@email.me
+description: Simple Pages Description
+
+theme: minima
+
+header_pages:
+- second.md
+```
+
+``` xml
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema targetNamespace="http://tempuri.org/XMLSchema.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/XMLSchema.xsd"
+    xmlns:mstns="http://tempuri.org/XMLSchema.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+</xs:schema>
+```
+
 
 ``` as4x
 Access {
