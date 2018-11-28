@@ -7,3 +7,7 @@ body {
 .highlighter-rouge .highlight {
   background: rgb(24, 24, 24);
 }
+
+pre,code {
+  background: rgb(24, 24, 24);
+}
