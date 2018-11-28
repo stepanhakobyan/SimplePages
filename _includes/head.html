@@ -12,6 +12,21 @@
     } else {
       csstag.rel = "";
     }
+    
+    document.addEventListener("load", () => {
+      let goDark = document.createElement("a");
+      goDark.href = "#";
+      goDark.classList.add("page-link");
+      if (document.cookie.indexOf("theme:dark") >= 0) {
+        goDark.addEventListener("click", () => { document.cookie = "theme:light"; document.location.reload(); });
+        goDark.textContent = "☀";
+      } else {
+        goDark.addEventListener("click", () => { document.cookie = "theme:dark"; document.location.reload(); });
+        goDark.textContent = "🌙";
+      }
+      let nav = document.querySelector(".site-nav .trigger");
+      nav.insertBefore(goDark, nav.firstChild);
+    });
   </script>
   {%- feed_meta -%}
   
