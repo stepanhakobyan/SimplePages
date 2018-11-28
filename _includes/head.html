@@ -4,7 +4,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {%- seo -%}
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
-  <link rel="stylesheet" href="{{ "/assets/dark.css" | relative_url }}">
+  <link id="darktheme" rel="" href="{{ "/assets/dark.css" | relative_url }}">
+  <script>
+    let csstag = document.getElementById("darktheme");
+    if (document.cookie.indexOf("theme:dark") >= 0) {
+      csstag.rel = "stylesheet";
+    } else {
+      csstag.rel = "";
+    }
+  </script>
   {%- feed_meta -%}
   
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
