@@ -11,3 +11,7 @@ body {
 pre,code {
   background: rgb(24, 24, 24);
 }
+
+.highlight .nt {
+  color: #569cd6;
+}
