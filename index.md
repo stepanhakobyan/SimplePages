@@ -17,8 +17,9 @@ async string GetFileAsync()
     result = t.Result;
     return result;
     //comment here
-    var val1 = 123;
+    int val1 = 123;
     var val2 = 123.05;
+    Int32 val3 = 1234;
 }
 ```
 
