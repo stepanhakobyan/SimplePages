@@ -20,6 +20,7 @@ async string GetFileAsync()
     int val1 = 123;
     var val2 = 123.05;
     Int32 val3 = 1234;
+    const bool arrived = false;
 }
 ```
 
@@ -32,6 +33,7 @@ function isItWorking() {
   let val2 = 123.05;
   let p = new Point();
   //comment here
+  const arrived = false;
 }
 ```
 
@@ -44,6 +46,7 @@ Function IsItWorking()
     val1 = 123.05
     'comment here 123
     REM comment here
+    Dim arrived As Boolean = False
 End Function
 ```
 
@@ -55,17 +58,7 @@ async function isItWorking(): void {
   let val2: number = 123.05;
   let p: Point = new Point();
   //comment here 456
-}
-```
-
-``` ts
-async function isItWorking(): void {
-  let text: string = "some text";
-  let other = text.toString();
-  let val1: number = 123;
-  let val2: number = 123.05;
-  let p: Point = new Point();
-  //comment here
+  const arrived: boolean = false;
 }
 ```
 
