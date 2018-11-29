@@ -4,11 +4,15 @@ author: Simple Pages Author - Me
 email: site@email.me
 description: Simple Pages Description
 
+# social links
+github_username: stepanhakobyan
+
 theme: minima
 
 header_pages:
   - second.md
 
 plugins:
+  - jekyll-feed
   - jekyll-seo-tag
 
