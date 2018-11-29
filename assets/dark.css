@@ -17,14 +17,18 @@ pre,code {
   color: #dcdcdc;
 }
 
+.site-nav {
+  color: rgb(24, 24, 24);
+}
+
 .site-nav .page-link {
   color: #dcdcdc;
 }
 
 /* from hacker theme */
-	.highlight {
-		color: #d0d0d0;
-	}
+  .highlight {
+    color: #d0d0d0;
+  }
 
   .highlight .w {
     color: #d0d0d0;
