@@ -8,3 +8,7 @@ theme: minima
 
 header_pages:
   - second.md
+
+plugins:
+  - jekyll-seo-tag
+
