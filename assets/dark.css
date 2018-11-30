@@ -5,33 +5,56 @@ body {
 }
 
 .highlighter-rouge .highlight {
-  background: rgb(24, 24, 24);
+  background: #181818;
 }
 
 pre,code {
-  background: rgb(24, 24, 24);
+  background: #181818;
 }
 
 
 .site-title, .site-title:visited {
-  color: #dcdcdc;
+  color: #e3e3e3;
 }
 
 .site-nav {
-  background-color: rgb(24, 24, 24);
+  background-color: #181818;
 }
 
 .site-nav .page-link {
-  color: #dcdcdc;
+  color: #e3e3e3;
 }
 @media screen and (max-width: 600px) {
  .site-nav .menu-icon>svg {
-  fill: #dcdcdc;
+  fill: #e3e3e3;
  }
 }
 
+/* like docs.ms */
+  .highlight .k, .highlight .kn, .highlight .kp, .highlight .kr, .highlight .kv {
+    color: #569cd6;
+  }
+  .highlight .nt, .highlight .nn, .highlight .nc, .highlight .no{
+    color: #569cd6;
+  }
+  .highlight .na {
+    color: #9cdcfe;
+  }
+  .highlight .s, .highlight .sb, .highlight .sc, .highlight .sd, .highlight .s2, .highlight .sh, .highlight .sx, .highlight .s1 {
+    color: #f25858;
+  }
+  .highlight .nf {
+    color: #01cfff;
+  }
+  .highlight .c, .highlight .cd, .highlight .cm, .highlight .c1, .highlight .cs {
+    color: #57a64a;
+  }
+  .highlight .cp {
+    color: #f4bf75;
+  }
 
 /* from hacker theme */
+/*
   .highlight {
     color: #d0d0d0;
   }
@@ -92,3 +115,4 @@ pre,code {
   .highlight .ss {
     color: #90a959;
   }
+*/
