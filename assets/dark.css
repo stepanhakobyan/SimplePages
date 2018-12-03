@@ -12,19 +12,27 @@ pre,code {
   background: #181818;
 }
 
-
 .site-title, .site-title:visited {
   color: #e3e3e3;
-}
-
-.site-nav {
-  background-color: #181818;
 }
 
 .site-nav .page-link {
   color: #e3e3e3;
 }
+
+table {
+  color: inherit;
+}
+
+table tr:nth-child(2n), table th  {
+  background-color:#181818;
+}
+
 @media screen and (max-width: 600px) {
+ .site-nav {
+   background-color: #181818;
+ }
+
  .site-nav .menu-icon>svg {
   fill: #e3e3e3;
  }
