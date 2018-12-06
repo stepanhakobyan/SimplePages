@@ -11,6 +11,7 @@ theme: minima
 
 header_pages:
   - second.md
+  - Config_as_struct.md
 
 plugins:
   - jekyll-feed
