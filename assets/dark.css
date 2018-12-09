@@ -3,8 +3,13 @@ body {
   color: #dcdcdc;
 }
 
+.highlighter-rouge {
+  border-color: #686868;
+}
+
 .highlighter-rouge .highlight {
   background: #181818;
+  border-color: #686868;
 }
 
 pre,code {
