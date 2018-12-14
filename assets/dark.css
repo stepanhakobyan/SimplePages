@@ -3,6 +3,14 @@ body {
   color: #dcdcdc;
 }
 
+a, a:visited {
+  color: rgb(77, 178, 255);
+}
+
+a:hover {
+  color: rgb(0, 145, 255);
+}
+
 .highlighter-rouge {
   border-color: #686868;
 }
