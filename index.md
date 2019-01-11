@@ -160,3 +160,18 @@ SCRIPED {
    TFS ="http://tfserver:8080/tfs/Armsoft";
 };
 ```
+
+``` as4x
+MODULE {
+NAME = AppExt;
+CAPTION = "Extensions";
+PUBLIC = 1;
+
+SCRIPT {
+Option Explicit
+
+Public Sub Init()
+    ...
+End Sub
+};
+```
