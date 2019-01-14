@@ -22,5 +22,5 @@ plugins:
 kramdown:
   # Enable GitHub Flavored Markdown (fenced code blocks)
   input: GFM
-  # Disable auto-generated ID's for headings
-  auto_ids: false
+  # Enable/Disable auto-generated ID's for headings
+  auto_ids: true
