@@ -7,6 +7,8 @@ description: Simple Pages Description
 # social links
 github_username: stepanhakobyan
 
+markdown: kramdown
+
 theme: minima
 
 header_pages:
@@ -17,3 +19,8 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
+kramdown:
+  # Enable GitHub Flavored Markdown (fenced code blocks)
+  input: GFM
+  # Disable auto-generated ID's for headings
+  auto_ids: false
