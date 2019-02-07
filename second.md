@@ -5,6 +5,18 @@ layout: page
 
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci. Aenean nec lorem.
 
+
+{{ page.url }}
+
+
+
+{{ document.url | relative_url | jsonify }}
+
+
+
+{{ document.url | relative_url }}
+
+
 |header1|header2|
 |--|--|
 |row11|row12|
@@ -29,17 +41,6 @@ ReadOnly Property NumFromName(ByVal columnName As String) As Long
 ReadOnly Property NumFromName(columnName As String, columnName2 As String, columnName3 As String, ByRef columnName4 As String) As Long
 ```
 
-``` vb wrap
-ReadOnly Property NumFromName(columnName As String, columnName2 As String, columnName3 As String, ByRef columnName4 As String) As Long
-```
-
-``` vb   wrap
-ReadOnly Property NumFromName(columnName As String, columnName2 As String, columnName3 As String, ByRef columnName4 As String) As Long
-```
-
-``` vb, wrap
-ReadOnly Property NumFromName(columnName As String, columnName2 As String, columnName3 As String, ByRef columnName4 As String) As Long
-```
 
 
 Pellentesque porttitor, velit lacinia egestas auctor, diam eros tempus arcu, nec vulputate augue magna vel risus. Cras non magna vel ante adipiscing rhoncus. Vivamus a mi. Morbi neque. Aliquam erat volutpat. Integer ultrices lobortis eros. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin semper, ante vitae sollicitudin posuere, metus quam iaculis nibh, vitae scelerisque nunc massa eget pede. Sed velit urna, interdum vel, ultricies vel, faucibus at, quam. Donec elit est, consectetuer eget, consequat quis, tempus quis, wisi.
