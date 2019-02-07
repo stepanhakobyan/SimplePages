@@ -10,11 +10,11 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor con
 
 
 
-{{ document.url | relative_url | jsonify }}
+{{ page.url | relative_url | jsonify }}
 
 
 
-{{ document.url | relative_url }}
+{{ page.url | relative_url }}
 
 
 |header1|header2|
