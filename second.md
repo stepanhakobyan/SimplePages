@@ -17,6 +17,10 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor con
 {{ page.url | relative_url }}
 
 
+{{ page.path }}
+
+
+
 |header1|header2|
 |--|--|
 |row11|row12|
