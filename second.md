@@ -67,6 +67,18 @@ ReadOnly Property NumFromName(ByVal columnName As String) As Long
 ReadOnly Property NumFromName(columnName As String, columnName2 As String, columnName3 As String, ByRef columnName4 As String) As Long
 ```
 
+``` vb
+ReadOnly Property NumFromName(ByVal columnName As Date|Null) As Long
+
+ReadOnly Property NumFromName(ByVal columnName As Nullable(Of Date)) As Long
+
+ReadOnly Property NumFromName(ByVal columnName As Date Or Null) As Long
+
+ReadOnly Property NumFromName(ByVal columnName As Date(Nullable)) As Long
+
+ReadOnly Property NumFromName(ByVal columnName As NullableDate) As NullableDate
+```
+
 
 
 Pellentesque porttitor, velit lacinia egestas auctor, diam eros tempus arcu, nec vulputate augue magna vel risus. Cras non magna vel ante adipiscing rhoncus. Vivamus a mi. Morbi neque. Aliquam erat volutpat. Integer ultrices lobortis eros. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin semper, ante vitae sollicitudin posuere, metus quam iaculis nibh, vitae scelerisque nunc massa eget pede. Sed velit urna, interdum vel, ultricies vel, faucibus at, quam. Donec elit est, consectetuer eget, consequat quis, tempus quis, wisi.
