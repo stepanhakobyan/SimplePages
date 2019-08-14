@@ -15,7 +15,7 @@ Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac tu
 Private mKasSim As String
 
 Public Function GetSimbol() As String
-    Simbol = KasSim
+    Return mKasSim
 End Function
 
 Public Sub OnEachrow()
