@@ -23,7 +23,7 @@ author: "sts"
 -----
 test block
 
-![Global Config Drag And Drop](/IMAGES/GlobalConfigDrag.png)
+![Global Config Drag And Drop]({{site.baseurl}}/IMAGES/GlobalConfigDrag.png)
 
-![Global Config Message](/IMAGES/GlobalConfigMsg.png)
+![Global Config Message]({{site.baseurl}}/IMAGES/GlobalConfigMsg.png)
 
