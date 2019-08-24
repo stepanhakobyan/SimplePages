@@ -42,6 +42,15 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor con
 {{ site.url | relative_url }}
 
 
+###### site.baseurl
+{{ site.baseurl }}
+
+###### repository.name 
+{{ repository.name }}
+
+###### repository.html_url
+{{ repository.html_url }}
+
 
 |header1|header2|
 |--|--|
