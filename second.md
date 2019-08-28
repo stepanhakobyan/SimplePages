@@ -32,25 +32,17 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor con
 ###### page.path
 {{ page.path }}
 
+###### page.path | relative_url
+{{ page.path | relative_url }}
+
 ###### site.url
 {{ site.url }}
-
-###### site.path
-{{ site.path }}
-
-###### site.url | relative_url 
-{{ site.url | relative_url }}
-
 
 ###### site.baseurl
 {{ site.baseurl }}
 
-###### repository.name 
-{{ repository.name }}
-
-###### repository.html_url
-{{ repository.html_url }}
-
+###### page.dir
+{{ page.dir }}
 
 |header1|header2|
 |--|--|
