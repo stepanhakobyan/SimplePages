@@ -1,7 +1,16 @@
-﻿---
+---
 title: "Глобальный конфигурационный файл"
 author: "sts"
 ---
+
+
+page.path
+{{ page.path }}
+
+
+page.path | relative_url
+{{ page.path | relative_url }}
+
 
 ## Глобальный конфигурационный файл
 
