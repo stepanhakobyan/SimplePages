@@ -21,17 +21,18 @@ title: "LastOpDate"
 
 
 ``` vb
-Function LastOpDate(ByVal AccCode As Variant, ByVal nISN As Long, _
-                    Optional ByVal UpToDate As Variant, _
-                    Optional ByVal Op As String, _
-                    Optional ByVal DiscardISN As Long = -1) As Variant
+Function LastOpDate(ByVal AccCode As Variant, 
+                    ByVal nISN As Long, _
+           Optional ByVal UpToDate As Variant, _
+           Optional ByVal Op As String, _
+           Optional ByVal DiscardISN As Long = -1) As Variant
 ```
 
 #### Պարամետրեր
 
 
 
-`AccCode` [Variant] ([String] կամ [String]())  
+`AccCode` [Variant] ([String] կամ [String] ())  
 строковое выражение, определяющее [код учета](../../../Defs/Accounting.html) либо массив значений с несколькими кодами учетов, содержащий несколько кодов учета.
 
 `nISN` Long  
