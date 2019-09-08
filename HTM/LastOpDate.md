@@ -25,7 +25,7 @@ Function LastOpDate(ByVal AccCode As Variant,
 `AccCode` Variant (String կամ String())  
 строковое выражение, определяющее [код учета](../../../Defs/Accounting.html) либо массив значений с несколькими кодами учетов, содержащий несколько кодов учета.
 
-`nISN` Long  
+`ISN` Long  
 численное выражение типа Long, определяющее ISN объекта учета, для которого приводится дата
 
 `UpToDate` Variant (Date կամ `Null`)  
@@ -34,7 +34,7 @@ Function LastOpDate(ByVal AccCode As Variant,
 `Op` String  
 необязательное строковое выражение, определяющее [код операции](../../../Defs/Accounting.html), по которому проводится поиск.
 
-`nDiscardISN` Long  
+`DiscardISN` Long  
 необязательное численное выражение типа Long, определяющее ISN документа, транзакции которого не рассматриваются. По умолчанию принимает значение -1.
 
 ### Վերադրաձվող արժեք
@@ -60,6 +60,6 @@ End Function
 
 ## Տես նաև
 
-[См. также](LastOpDate2.html)
+[LastOpDate2](LastOpDate2.html)
 
 
