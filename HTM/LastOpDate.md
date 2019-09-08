@@ -66,7 +66,7 @@ In porttitor. Donec laoreet nonummy augue. Suspendisse dui purus, scelerisque at
 
 ``` vb
 Function LASTDAY() As Variant
-Dim arr
+Dim arr(2) As String
     arr(1) = "01"
     arr(2) = "02"
     LASTDAY = LastOpDate(arr, ds("fISN"))
