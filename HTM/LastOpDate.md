@@ -28,9 +28,7 @@ Function LastOpDate(ByVal AccCode As Variant,
            Optional ByVal DiscardISN As Long = -1) As Variant
 ```
 
-#### Պարամետրեր
-
-
+### Պարամետրեր
 
 `AccCode` Variant (String կամ String())  
 
@@ -52,7 +50,7 @@ Function LastOpDate(ByVal AccCode As Variant,
 
 необязательное численное выражение типа Long, определяющее ISN документа, транзакции которого не рассматриваются. По умолчанию принимает значение -1.
 
-#### Վերադրաձվող արժեք
+### Վերադրաձվող արժեք
 
 Variant (Date կամ `Null`)  
 
