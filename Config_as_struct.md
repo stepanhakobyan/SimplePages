@@ -17,6 +17,7 @@ Page {
     PageObject1 {};
     . . . . .
     PageObjectN {};
+};
 ```
 
 ``` as4x
@@ -28,6 +29,7 @@ Page {
     PageObject1
     . . . . .
     PageObjectN
+};
 ```
 
 
