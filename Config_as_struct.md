@@ -6,6 +6,32 @@ title: "Конфигурационный файл (config.as)"
 Файл конфигурации предназначен для настройки приложений платформы AS-3X, а именно клиента AS-3X (asbank.exe, 
 asbux.exe и т.д.), конфигураторa системы (syscon.exe), редактора сценариев (scriped.exe) и загрузчика новых версий (launcher.exe). Файл состоит из нескольких разделов.
 
+test
+
+``` as4x
+Page {
+    Name = sName;
+    Caption = sPageCaption;
+    ECaption = sPageECaption;                           
+
+    PageObject1 {};
+    . . . . .
+    PageObjectN {};
+```
+
+``` as4x
+Page {
+    Name = sName;
+    Caption = sPageCaption;
+    ECaption = sPageECaption;                           
+
+    PageObject1
+    . . . . .
+    PageObjectN
+```
+
+
+
 ## Раздел Common
 предназначен для описания баз данных AS-3X.
 
