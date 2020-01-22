@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" href="../assets/main.css"> -->
+    <link id="darktheme" rel="stylesheet" href="../assets/dark.css">
+    
+  
+</head>
+<body>
+<pre><code class="language-as4x">COMMON { 
+    DESCRIPTION = "Initialization";
+    LANGUAGE = 1321;
+    'MODE = 4.0;
+    'HEARTBEAT="Retail:555"; 
+    'AUTHENTICATION=WINDOWS;
+
+    CONFIG{ NAME="d_bank1";    SERVER="bank-server";    DATABASE=d_bank1;    CONTEXT = ASBANK;      };
+    CONFIG{ NAME="d_bank5";    SERVER="bank-server\sql2012";    DATABASE=d_bank5;    CONTEXT = ASBANK;      };
+
+
+    CONFIG{ NAME="z_as_enterprise_e"; SERVER=ACC-SERVER;  DATABASE=z_as_enterprise_e;   CONTEXT = ASENTERPRISE;};
+    
+    BASEFOLDER{ PATH="C:\AS-4X\tests";  SS = NO; CONTEXT = ASBANK;};
+    BASEFOLDER{ PATH="C:\LocalWS\Bank Scripts\asbank";           SS = YES; CONTEXT = ASBANK;};  'asdasdasdasd'
+    
+    BASEFOLDER{ PATH="C:\AS-=4X\Enterprise Script\Enterprise";       SS = YES; CONTEXT = ASENTERPRISE;};
+
+    COLUMN { WIDTH = 789465; HEIGHT = 123.12; };
+    PARAMVALUE { = 789465;};
+    PARAMVALUE { = 789465.1242  ;};
+    PARAMVALUE {="as";};
+    PARAMVALUE {  ="ez" ; };
+};
+SCRIPED {
+    TFS ="http://tfserver:8080/tfs/Armsoft";
+};
+Page {
+    Name = sName;
+    Caption = sPageCaption;
+    ECaption = sPageECaption;                           
+
+    PageObject1 {};
+    . . . . .
+    PageObjectN {};
+};
+Common {
+    Description = "Configuration definitions";
+    Language = 1;
+    Authentication = "WINDOWS";
+    UseWindowsDefaultPrinter = 0;
+    UseTestB2b = 1;
+};
+Launcher {
+    Update { Name = "asbank.exe"; ="SELFREG"; };
+    Update { Name = "dasbank.exe"; ="SELFREG"; };
+};
+</code></pre>
+    <footer class="site-footer h-card">
+        <!-- <script src="../assets/beautifyAS4X.js"></script> -->
+        <!-- <script src="../assets/beautifyAS4X_2.js"></script> -->
+        <script src="../assets/as4xparser.js"></script>
+    </footer>
+</body>  
