@@ -99,6 +99,11 @@ lalala
 <div class="qwe">
   <span style='font-family:Arial'>some text</span>
 </div>
+<script><![CDATA[
+function testCData() { 
+  return; 
+}
+]]></script>
 ```
 
 ``` json
@@ -151,7 +156,7 @@ files: [index.md, search.html]
   <!-- comment here -->
 <xs:annotation id="a123">123</xs:annotation>
 <xs:annotation id="a124">Hi ho</xs:annotation>
-
+<xs:annotation id="a125"><![CDATA[hey ho]]></xs:annotation>
 </xs:schema>
 ```
 
