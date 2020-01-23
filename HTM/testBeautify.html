@@ -19,7 +19,14 @@
     CONFIG{ NAME="d_bank1";    SERVER="bank-server";    DATABASE=d_bank1;    CONTEXT = ASBANK;      };
     CONFIG{ NAME="d_bank5";    SERVER="bank-server\sql2012";    DATABASE=d_bank5;    CONTEXT = ASBANK;      };
 
-
+    SCRIPT {
+    Option Explicit
+    
+    Public Sub Init()
+        ...
+    End Sub
+    };
+        
     CONFIG{ NAME="z_as_enterprise_e"; SERVER=ACC-SERVER;  DATABASE=z_as_enterprise_e;   CONTEXT = ASENTERPRISE;};
     
     BASEFOLDER{ PATH="C:\AS-4X\tests";  SS = NO; CONTEXT = ASBANK;};
@@ -55,6 +62,19 @@ Common {
 Launcher {
     Update { Name = "asbank.exe"; ="SELFREG"; };
     Update { Name = "dasbank.exe"; ="SELFREG"; };
+};
+MODULE {
+NAME = AppExt;
+CAPTION = "Extensions";
+PUBLIC = 1;
+
+SCRIPT {
+Option Explicit
+
+Public Sub Init()
+    ...
+End Sub
+};
 };
 </code></pre>
     <footer class="site-footer h-card">

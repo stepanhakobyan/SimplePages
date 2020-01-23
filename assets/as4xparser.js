@@ -37,11 +37,11 @@ class XParser {
             let next = new SepPair1(prevIndex + 1, script[prevIndex + 1]);
             switch (next.char) {
                 case "\"":
-                    let iEndQuote = script.indexOf("\"", next.index + 1);
+                    let endQuote = script.indexOf("\"", next.index + 1);
                     current = stack[stack.length - 1]; // սա խնդրահարույց է, գուցե միայն "some string" ընդունելի է
-                    value = script.substring(next.index, iEndQuote + 1);
+                    value = script.substring(next.index, endQuote + 1);
                     current.children.push(new XLexem("value", value));
-                    prevIndex = iEndQuote;
+                    prevIndex = endQuote;
                     break;
                 case " ":
                 case "\n":
@@ -83,7 +83,15 @@ class XParser {
                         newValue = this.reStackBiggerLexem(stack);
                     }
                     stack.push(newValue);
-                    prevIndex = next.index;
+                    if (newValue.type == "complex" && newValue.name == "SCRIPT") {
+                        let endBrace = script.indexOf("}", next.index + 1);
+                        value = script.substring(next.index + 1, endBrace);
+                        newValue.children.push(new XLexem("script", value));
+                        prevIndex = endBrace - 1;
+                    }
+                    else {
+                        prevIndex = next.index;
+                    }
                     break;
                 case "}":
                     stack[stack.length - 1].children.push(new XLexem("special", next.char));
@@ -247,27 +255,12 @@ class XLexemFormatter {
         else if (lexem.type == "simple" || lexem.type == "complex") {
             result = this.format(lexem.children);
         }
+        else if (lexem.type == "script") {
+            result = "<span class='cp'>" + lexem.content + "</span>";
+        }
         return result;
     }
 }
-//COMMON {
-//    DESCRIPTION = "Initialization";
-//    CONFIG{ NAME="d_bank1";    };
-//    PARAMVALUE {  ="ez" ; };
-//};
-//SCRIPED {
-//    TFS ="http://tfserver:8080/tfs/Armsoft";
-//};
-let str = "COMMON {\n    DESCRIPTION = \"Initialization\";\n    CONFIG{ NAME=\"d_bank1\";    };\n    PARAMVALUE {  =\"ez\" ; };\n};"
-    + "\n"
-    + "SCRIPED {\n    TFS =\"http://tfserver:8080/tfs/Armsoft\";\n};";
-console.log(str);
-let parser1 = new XParser();
-let lexems1 = parser1.parse(str);
-console.log(lexems1);
-console.log(lexems1.join(""));
-let formatter = new XLexemFormatter();
-console.log(formatter.format(lexems1));
 function highlightAllAS4X_3() {
     const parser = new XParser();
     const formatter = new XLexemFormatter();
