@@ -199,6 +199,8 @@ NAME = AppExt;
 CAPTION = "Extensions";
 PUBLIC = 1;
 
+Doc { = sDocName1; .....;  = sDocNameN; };
+
 SCRIPT {
 Option Explicit
 
