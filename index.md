@@ -8,7 +8,7 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor con
 
 ``` as4x
 COLUMN {NAME = KASSIMV; CAPTION=#Simbol; TYPE=C(#LenKasSimv);
-    SOURCE=1; FIELD=GetSimbol; DESCRIPTION=#KasSimv; ="test"; }; 
+    SOURCE=1; FIELD=GetSimbol; DESCRIPTION=#KasSimv; }; 
 ```
 
 Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci. Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.
