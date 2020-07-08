@@ -3,7 +3,18 @@ title: Second Page
 layout: page
 ---
 
+
+
+
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci. Aenean nec lorem.
+
+``` vb
+Sub When()
+    Doc.Сontrol("CODE").Format = String(#LenNBAcc,"9")
+    Doc.Сontrol("CODE").Format = "000"
+    Doc.Control("PERIODICITY").ZeroNumber1 = True
+End Sub
+```
 
 > **Ուշադրություն. ինչ որ այստեղ գրված է շատ կարևոր է։ Հարկավոր է հաշվի առնել։**
 
