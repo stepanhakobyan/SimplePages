@@ -14,11 +14,11 @@ COLUMN {NAME = KASSIMV; CAPTION=#Simbol; TYPE=C(#LenKasSimv);
 Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci. Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.
 
 ``` vb
-Function RunEx(ByVal ModName As String, ByVal SubName As String, ParamArray ParArray()) As Variant
+Sub Util.DeleteDescr(ByVal intSysType As Integer, ByVal strName As String)
 ```
 
 ``` vb
-Public Function RunEx(ByVal ModName As String, ByVal SubName As String, ParamArray ParArray()) As Variant
+Public Sub Util.DeleteDescr(ByVal intSysType As Integer, ByVal strName As String)
 ```
 
 Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci. Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.
