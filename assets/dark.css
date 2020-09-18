@@ -3,6 +3,13 @@ body {
   color: #dcdcdc;
 }
 
+:focus {
+  outline-color: rgb(227,227,227);
+  outline-style: dashed;
+  outline-width: 1.6px;
+/*   outline-offset: -2px; */
+}
+
 a, a:visited {
   color: rgb(77, 178, 255);
 }
