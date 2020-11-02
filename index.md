@@ -7,8 +7,16 @@ title: Index Page
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.
 
 ``` as4x
-COLUMN {NAME = KASSIMV; CAPTION=#Simbol; TYPE=C(#LenKasSimv);
-    SOURCE=1; FIELD=GetSimbol; DESCRIPTION=#KasSimv; }; 
+column { name = fAGRNUM; caption = "ä³ÛÙ³Ý³·ñÇ Ñ³Ù³ñ"; FIELD=fDGCODE; SOURCE = 1; type=C(14); 
+         rtrim = 1; };
+column { name = fCOUNT; caption = "ø³Ý³Ï"; FIELD=fCURSUM; SOURCE = 1; type=NP(2,0); 
+         cstype = decimal; };
+column { name = fCLOSEDATE; caption = "ö³ÏÙ³Ý ³Ùë³ÃÇí"; FIELD=fCLOSEDATE; SOURCE = 1; type=DATE; 
+         nullable = 1; };
+
+
+param { name = StartDate; type = DATE; description = "êÏ½µÇ ³Ùë³ÃÇí"; nullable = 1; };
+param { name = EndDate; type = DATE; description = "ì»ñçÇ ³Ùë³ÃÇí"; nullable = 1; };
 ```
 
 Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci. Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.
