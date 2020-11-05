@@ -6,6 +6,62 @@ title: Index Page
 
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.
 
+<custom data-highlight="3,4,5"></custom>
+
+``` vb
+' CODE BLOCK 1
+Public Sub OnEachrow()
+Dim xDoc As AsDoc
+   Set xDoc = LoadDoc(DS("fISN"))
+   If xDoc.ExistsRekv("KASSIMV") Then
+      mKasSim = xDoc("KASSIMV")
+   Else
+      mKasSim = "?"
+   End If
+End Sub
+```
+
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.
+
+<custom data-highlight="3,4,5">
+
+``` vb
+' CODE BLOCK 2
+Public Sub OnEachrow()
+Dim xDoc As AsDoc
+   Set xDoc = LoadDoc(DS("fISN"))
+   If xDoc.ExistsRekv("KASSIMV") Then
+      mKasSim = xDoc("KASSIMV")
+   Else
+      mKasSim = "?"
+   End If
+End Sub
+```
+
+</custom>
+
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.
+
+<custom data-highlight="3,4,5">
+``` vb
+' CODE BLOCK 3
+Public Sub OnEachrow()
+Dim xDoc As AsDoc
+   Set xDoc = LoadDoc(DS("fISN"))
+   If xDoc.ExistsRekv("KASSIMV") Then
+      mKasSim = xDoc("KASSIMV")
+   Else
+      mKasSim = "?"
+   End If
+End Sub
+```
+</custom>
+
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.
+
+
+
+
 ``` as4x
 column { name = fAGRNUM; caption = "ä³ÛÙ³Ý³·ñÇ Ñ³Ù³ñ"; FIELD=fDGCODE; SOURCE = 1; type=C(14); 
          rtrim = 1; };
