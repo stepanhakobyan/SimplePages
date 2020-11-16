@@ -23,7 +23,7 @@ End Sub
 
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.
 
-<custom data-highlight="3,4,5">
+<custom-highlight data-rows="3,5,7" />
 
 ``` vb
 ' CODE BLOCK 2
@@ -38,11 +38,12 @@ Dim xDoc As AsDoc
 End Sub
 ```
 
-</custom>
+
 
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.
 
-<custom data-highlight="3,4,5">
+<custom-highlight data-rows="3,5,9" />
+
 ``` vb
 ' CODE BLOCK 3
 Public Sub OnEachrow()
@@ -55,12 +56,10 @@ Dim xDoc As AsDoc
    End If
 End Sub
 ```
-</custom>
 
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.
 
-
-
+<custom-highlight data-rows="3,5,7,9" />
 
 ``` as4x
 column { name = fAGRNUM; caption = "ä³ÛÙ³Ý³·ñÇ Ñ³Ù³ñ"; FIELD=fDGCODE; SOURCE = 1; type=C(14); 
