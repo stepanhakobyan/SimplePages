@@ -23,7 +23,7 @@ End Sub
 
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.
 
-<custom-highlight data-rows="3,5,7" />
+<custom-highlight data-rows="3,5,7"></custom-highlight>
 
 ``` vb
 ' CODE BLOCK 2
@@ -42,7 +42,7 @@ End Sub
 
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.
 
-<custom-highlight data-rows="3,5,9" />
+<custom-highlight data-rows="3,5,9"></custom-highlight>
 
 ``` vb
 ' CODE BLOCK 3
@@ -59,7 +59,7 @@ End Sub
 
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.
 
-<custom-highlight data-rows="3,5,7,9" />
+<custom-highlight data-rows="3,5,7,9"></custom-highlight>
 
 ``` as4x
 column { name = fAGRNUM; caption = "ä³ÛÙ³Ý³·ñÇ Ñ³Ù³ñ"; FIELD=fDGCODE; SOURCE = 1; type=C(14); 
