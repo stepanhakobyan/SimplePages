@@ -43,4 +43,28 @@
 
   <!-- <script src="{{ "/assets/beautifyAS4X.js" | relative_url }}"></script> -->
   <script src="{{ "/assets/as4xparser.js" | relative_url }}"></script>
+  <script>
+{
+  try {
+    const hls = document.querySelectorAll("highlight-code");
+    for(const hl of hls) {
+      const rouge = hl.nextElementSibling;
+      if(rouge.classList.contains("highlighter-rouge")) {
+        const code = rouge.firstChild.firstChild.firstChild;
+        let splits = code.innerHTML.split("\n");
+        for(const hr of hl.dataset["rows"].split(",")) {
+          let rowNum = Number.parseInt(hr) - 1;
+          let row = splits[rowNum];
+          let newRow = "<span style='background-color: yellow;'>" + row + "</span>";
+          splits.splice(rowNum,1,newRow);
+        }
+        
+        code.innerHTML = splits.join("\n");
+      }
+    }
+  } finally {
+
+  }
+}  
+  </script>
 </footer>
