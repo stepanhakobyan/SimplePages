@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "LastOpDate"
+tags: tag1, tag2, tag3
 ---
 
 # Функция LastOpDate
