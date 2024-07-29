@@ -2,7 +2,10 @@
 title: Index Page
 ---
 
-փորձնական
+* Բովանդակություն
+{:toc}
+
+## Փորձնական
 
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.
 
@@ -23,7 +26,7 @@ public class AgrsInfoC3Artonyal {
     public string Name { get; set; }
 }
 ```
-
+## Գունավորում
 
 <custom data-highlight="3,4,5"></custom>
 
@@ -57,7 +60,7 @@ Dim xDoc As AsDoc
 End Sub
 ```
 
-
+### Գունավորում 3 տողի
 
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.
 
@@ -76,6 +79,8 @@ Dim xDoc As AsDoc
 End Sub
 ```
 
+### Գունավորում 4 տողի
+
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.
 
 <highlight-code data-rows="3,5,7,9"></highlight-code>
@@ -92,6 +97,8 @@ column { name = fCLOSEDATE; caption = "ö³ÏÙ³Ý ³Ùë³ÃÇí"; FIELD=fCLOS
 param { name = StartDate; type = DATE; description = "êÏ½µÇ ³Ùë³ÃÇí"; nullable = 1; };
 param { name = EndDate; type = DATE; description = "ì»ñçÇ ³Ùë³ÃÇí"; nullable = 1; };
 ```
+
+### Գունավորում vb կոդերի
 
 Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci. Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.
 
@@ -125,7 +132,7 @@ End Sub
 
 
 
-
+## Գունավորում խառը կոդերի
 
 Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.
 
