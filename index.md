@@ -2,13 +2,7 @@
 title: Index Page
 ---
 
-## Բովանդակություն
-
-* TOC1 {:toc}
-
-aaaaa
-
-
+Բովանդակություն
 * TOC2
 {:toc}
 
