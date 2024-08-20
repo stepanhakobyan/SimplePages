@@ -9,13 +9,13 @@ title: Index Page
 
 ## Փորձնական
 
-[DATA նկարագրություն 1]({{ as4xdocsurl }}HTM/ProgrGuide/Defs/Data.html)
+[DATA նկարագրություն 1]({{ site.as4xdocsurl }}HTM/ProgrGuide/Defs/Data.html)
 
-[DATA նկարագրություն 1]({{as4xdocsurl}}HTM/ProgrGuide/Defs/Data.html)
+[DATA նկարագրություն 1]({{site.as4xdocsurl}}HTM/ProgrGuide/Defs/Data.html)
 
-[DATA նկարագրություն 2]({{ as4xdocsurl2 }}HTM/ProgrGuide/Defs/Data.html)
+[DATA նկարագրություն 2]({{ site.as4xdocsurl2 }}HTM/ProgrGuide/Defs/Data.html)
 
-[DATA նկարագրություն 2]({{as4xdocsurl2}}HTM/ProgrGuide/Defs/Data.html)
+[DATA նկարագրություն 2]({{site.as4xdocsurl2}}HTM/ProgrGuide/Defs/Data.html)
 
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.
 
