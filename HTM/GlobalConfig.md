@@ -4,7 +4,7 @@ author: "sts"
 ---
 
 
-[LastOpDate.md](/HTM/ProgrGuide/LastOpDate.md)
+[LastOpDate.md](//HTM/ProgrGuide/LastOpDate.md)
 
 [LastOpDate.md](HTM/ProgrGuide/LastOpDate.md)
 
