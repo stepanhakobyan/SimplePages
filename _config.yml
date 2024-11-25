@@ -10,6 +10,8 @@ as4xdocsurl2: "https://armsoft.github.io/as4x-docs/"
 github_username: stepanhakobyan
 
 markdown: kramdown
+kramdown:
+  input: GFM
 
 theme: minima
 
