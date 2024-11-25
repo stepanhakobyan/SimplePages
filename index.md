@@ -19,6 +19,22 @@ title: Index Page
 
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.
 
+> [!warning]
+> Ժամանակահատվածի սկզբի, վերջի, ինչպես նաև **acsBranch**, **skv**, **calcCurCode**, **precision** 
+պարամետրերի արժեքները ավտոմատ կփոխանցվեն ատոմար ցուցանիշում լրացված բանաձևերի համապատասխան պարամետրերին 
+եթե նրանք առկա են։ Ժամանակաշրջանը սահմանված չլինելու դեպքում հաշվարկը կկատարվի ՀԾ-Բանկ համակարգում 
+սահմանված ընթացիկ օրով։
+
+asdasdasd asd asd asd da
+
+> [!TIP]
+> Ժամանակահատվածի սկզբի, վերջի, ինչպես նաև **acsBranch**, **skv**, **calcCurCode**, **precision** 
+պարամետրերի արժեքները ավտոմատ կփոխանցվեն ատոմար ցուցանիշում լրացված բանաձևերի համապատասխան պարամետրերին 
+եթե նրանք առկա են։ Ժամանակաշրջանը սահմանված չլինելու դեպքում հաշվարկը կկատարվի ՀԾ-Բանկ համակարգում 
+սահմանված ընթացիկ օրով։
+
+
+
 ```cs
 public class AgrsInfoC3Artonyal {
     public string Name { get; set; }
